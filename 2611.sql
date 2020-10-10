@@ -1,0 +1,2 @@
+SELECT movies.id, movies.name FROM movies JOIN genres ON movies.id_genres = genres.id WHERE genres like 'Action';
+SELECT m.id, m.name FROM movies m JOIN genres g ON m.id_genres = g.id WHERE g.description LIKE 'Action';

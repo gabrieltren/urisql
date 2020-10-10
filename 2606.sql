@@ -1,0 +1,1 @@
+SELECT products.id, products.name FROM products JOIN categories ON products.id_categories = categories.id and categories.name like 'super%';
